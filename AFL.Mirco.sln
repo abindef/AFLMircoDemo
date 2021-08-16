@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFL.Ordering.API", "AFL.Web\AFL.Ordering.API.csproj", "{B9077491-4E8D-4A36-9F13-2017CADEE6CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFL.Ordering.API", "AFL.Web\AFL.Ordering.API.csproj", "{B9077491-4E8D-4A36-9F13-2017CADEE6CE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitor", "Monitor", "{956DD3B5-E69B-4402-8B8E-30A04D1E8B51}"
 EndProject
@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{8E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{A473AFE6-2774-4FD5-8CDC-2E2F21F3FA94}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFL.Core", "AFL.Core\AFL.Core.csproj", "{311B5300-EBFD-44C0-9D4E-E21595B92982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFL.Domain.Abstractions", "AFL.Domain.Abstractions\AFL.Domain.Abstractions.csproj", "{A867953F-E32C-4DB1-B5A9-95BD34BD359F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{B9077491-4E8D-4A36-9F13-2017CADEE6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9077491-4E8D-4A36-9F13-2017CADEE6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9077491-4E8D-4A36-9F13-2017CADEE6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311B5300-EBFD-44C0-9D4E-E21595B92982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311B5300-EBFD-44C0-9D4E-E21595B92982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311B5300-EBFD-44C0-9D4E-E21595B92982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311B5300-EBFD-44C0-9D4E-E21595B92982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +49,8 @@ Global
 		{B9077491-4E8D-4A36-9F13-2017CADEE6CE} = {A473AFE6-2774-4FD5-8CDC-2E2F21F3FA94}
 		{8E979C3A-1CC2-4CA4-9107-FE6E127D5887} = {0D343417-10C7-4A49-9525-BC1267F51DBF}
 		{A473AFE6-2774-4FD5-8CDC-2E2F21F3FA94} = {0D343417-10C7-4A49-9525-BC1267F51DBF}
+		{311B5300-EBFD-44C0-9D4E-E21595B92982} = {E6729181-DCBE-4E03-BCF4-D53052E1A9CF}
+		{A867953F-E32C-4DB1-B5A9-95BD34BD359F} = {E6729181-DCBE-4E03-BCF4-D53052E1A9CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2AB35035-26C7-414E-ABD3-01227C9C9A95}
