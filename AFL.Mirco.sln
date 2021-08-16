@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFL.Core", "AFL.Core\AFL.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFL.Domain.Abstractions", "AFL.Domain.Abstractions\AFL.Domain.Abstractions.csproj", "{A867953F-E32C-4DB1-B5A9-95BD34BD359F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFL.Infrastructure.Core", "AFL.Infrastructure.Core\AFL.Infrastructure.Core.csproj", "{F1D22220-FDC8-4ACD-9EBC-2F50927A469C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A867953F-E32C-4DB1-B5A9-95BD34BD359F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D22220-FDC8-4ACD-9EBC-2F50927A469C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D22220-FDC8-4ACD-9EBC-2F50927A469C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D22220-FDC8-4ACD-9EBC-2F50927A469C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D22220-FDC8-4ACD-9EBC-2F50927A469C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{A473AFE6-2774-4FD5-8CDC-2E2F21F3FA94} = {0D343417-10C7-4A49-9525-BC1267F51DBF}
 		{311B5300-EBFD-44C0-9D4E-E21595B92982} = {E6729181-DCBE-4E03-BCF4-D53052E1A9CF}
 		{A867953F-E32C-4DB1-B5A9-95BD34BD359F} = {E6729181-DCBE-4E03-BCF4-D53052E1A9CF}
+		{F1D22220-FDC8-4ACD-9EBC-2F50927A469C} = {E6729181-DCBE-4E03-BCF4-D53052E1A9CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2AB35035-26C7-414E-ABD3-01227C9C9A95}
