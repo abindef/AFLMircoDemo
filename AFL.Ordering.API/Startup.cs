@@ -105,7 +105,7 @@ namespace AFL.Ordering.API
             using (var scope = app.ApplicationServices.CreateScope())
             {
                 var dc = scope.ServiceProvider.GetService<OrderingContext>();
-                //dc.Database.EnsureCreated();//确定数据库已创建数据表
+                dc.Database.EnsureCreated();//确定数据库已创建数据表,如果没有就会创建数据库,如果数据库中存在相关的表，则需要手动更新数据库
             }
 
 
